@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breathe Before - Breathing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="breathe-bg">
+
+  <div class="logo logo-left">🌿 Breathe Before</div>
+
+  <div class="container">
+    <h1>Let's breathe together</h1>
+    <p>Follow the circle. Breathe in as it grows and out as it shrinks.</p>
+
+    <!-- the breathing circle -->
+    <div class="circle-area">
+      <div class="circle" id="circle" aria-live="polite">
+        <span id="circleText">Ready?</span>
+      </div>
+    </div>
+
+    <p id="timeLeft"></p>
+
+    <p>How long?</p>
+    <button class="small-btn time-btn selected" id="oneMin">1 minute</button>
+    <button class="small-btn time-btn" id="twoMin">2 minutes</button>
+    <br>
+    <button class="big-btn" id="startBtn">Start</button>
+
+    <p id="doneMessage" class="done-message"></p>
+
+    <button class="small-btn" id="imDone">I'm done</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
